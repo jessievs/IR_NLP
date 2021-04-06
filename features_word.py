@@ -23,17 +23,24 @@ def load_vectors(limit, fname):
             break
     return data
 
-print('Creating pretrained wordvec models (160.000 vectors)...')
-d_fast = load_vectors(160000, 'wiki-news-300d-1M.vec(1)/wiki-news-300d-1M.vec')
+print('Reading pretrained wordvec [FASTTEXT] models (160.000 vectors)...')
+# To download: curl https://dl.fbaipublicfiles.com/fasttext/vectors-english/wiki-news-300d-1M.vec.zip --output fasttext/vectors-english/wiki-news-300d-1M.vec.zip
+# Afet downloading, unzip file
+d_fast = load_vectors(160000, 'fasttext/vectors-english/wiki-news-300d-1M.vec')
 print('DONE')
 
 print('Reading pretrained wordvec [GLOVE] model (240.000 vectors of size 200)...')
-d_glove = load_vectors(240000, 'glove6B/glove.6B.200d.txt')
+# To download: curl http://nlp.stanford.edu/data/glove.6B.zip --output glove/data/glove.6B.zip
+# Afer downloading, upzip file
+d_glove = load_vectors(240000, 'glove/data/glove.6B.200d.txt')
 d = [d_fast, d_glove]
 print('DONE')
 
 def createVec(doc, d):
-    vecq = np.zeros(300)
+    if d == d_fast:
+        vecq = np.zeros(300)
+    else:
+        vecq = np.zeros(200)
     count = 0
     for x in doc.split():
         if d.get(x) is not None:
@@ -61,7 +68,7 @@ def compute_NLP_features(data, queries):
             cos[idx] = cosine(vec.reshape((1, -1)), vecq.reshape((1, -1)))[0]
 
         # Adding NLP features to data
-        NLP_data.append(row['qid'], row['docid'], row['rating'], cos[0], cos[1])
+        NLP_data.append([row['qid'], row['docid'], row['rating'], cos[0], cos[1]])
 
     NLP_data = pd.DataFrame(NLP_data, columns=['qid', 'docid', 'rating', 'FastText-COSINE', 'Glove-COSINE'])
 
@@ -83,7 +90,7 @@ del training_data, queries_train
 print('DONE')
 
 print('Saving training data to CSV...')
-training_data_NLP.to_csv('training_data_NLP_FASTTEXT_160000.csv')
+training_data_NLP.to_csv('features_word/training_data_word.csv')
 del training_data_NLP
 print('DONE')
 
@@ -104,7 +111,7 @@ del testing_data, queries_test
 print('DONE')
 
 print('Saving testing data to CSV...')
-testing_data_NLP.to_csv('testing_data_NLP_FASTTEXT_160000.csv')
+testing_data_NLP.to_csv('features_word/testing_data_word.csv')
 del testing_data_NLP
 print('DONE')
 
@@ -124,6 +131,6 @@ del validation_data, queries_val
 print('DONE')
 
 print('Saving validation data to CSV...')
-validation_data_NLP.to_csv('validation_data_NLP_FASTTEXT_160000.csv')
+validation_data_NLP.to_csv('features_word/validation_data_word.csv')
 del validation_data_NLP
 print('DONE')
