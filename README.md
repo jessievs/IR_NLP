@@ -158,10 +158,39 @@ MAP on test data: 0.4963
 
 We create a random forest model as follows:
 
-`java -jar RankLib-2.15.jar -train features_word/training_data_word_glove_core.txt -ranker 8 -gmax 1 -validate features_word/validation_data_word_glove_core.txt -test features_word/testing_data_word_glove_core.txt -metric2T MAP -save L2R_glove_core.txt`
+`java -jar RankLib-2.15.jar -train features_word/training_data_word_glove_core.txt -ranker 8 -gmax 5 -validate features_word/validation_data_word_glove_core.txt -test features_word/testing_data_word_glove_core.txt -metric2T MAP -save L2R_glove_core.txt`
 
 The output is as follows:
 
 ```
+Discard orig. features
+Training data:	features_word/training_data_word_glove_core.txt
+Test data:	features_word/testing_data_word_glove_core.txt
+Validation data:	features_word/validation_data_word_glove_core.txt
+Feature vector representation: Dense.
+Ranking method:	Random Forests
+Feature description file:	Unspecified. All features will be used.
+Train metric:	ERR@10
+Test metric:	MAP
+Highest relevance label (to compute ERR): 1
+Feature normalization: No
+Model file: L2R_glove_core.txt
 
+[+] Random Forests's Parameters:
+No. of bags: 300
+Sub-sampling: 1.0
+Feature-sampling: 0.3
+No. of trees: 1
+No. of leaves: 100
+No. of threshold candidates: 256
+Learning rate: 0.1
+
+...
+
+------------------------------------
+Finished sucessfully.
+ERR@10 on training data: 0.4967
+ERR@10 on validation data: 0.4439
+------------------------------------
+MAP on test data: 0.0209
 ```
