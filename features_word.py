@@ -74,6 +74,8 @@ def compute_NLP_features(data, queries):
 
     return NLP_data
 
+'''
+
 print('Loading training data...')
 
 training_data = pd.read_csv('features_core/training_data.csv', index_col=0)
@@ -93,6 +95,8 @@ print('Saving training data to CSV...')
 training_data_NLP.to_csv('features_word/training_data_word.csv')
 del training_data_NLP
 print('DONE')
+
+'''
 
 print('Loading testing data...')
 
@@ -115,6 +119,7 @@ testing_data_NLP.to_csv('features_word/testing_data_word.csv')
 del testing_data_NLP
 print('DONE')
 
+'''
 print('Loading validation data....')
 
 validation_data = pd.read_csv('features_core/validation_data.csv', index_col=0)
@@ -134,3 +139,4 @@ print('Saving validation data to CSV...')
 validation_data_NLP.to_csv('features_word/validation_data_word.csv')
 del validation_data_NLP
 print('DONE')
+'''
