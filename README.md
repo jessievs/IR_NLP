@@ -111,7 +111,81 @@ MAP on test data: 0.0211
 
 ### Context embedding - DistilBERT
 
+We used to following to create the model for DistilBERT:
+
+`java -jar RankLib-2.15.jar -train features_context/training_data_context_distilbert.txt -ranker 1 -gmax 1 -validate features_context/validation_data_context_distilbert.txt -test features_context/testing_data_context_distilbert.txt -metric2T MAP -save models/L2R_distilbert.txt`
+
+The output is as follows:
+
+```
+Discard orig. features
+Training data:	features_context/training_data_context_distilbert.txt
+Test data:	features_context/testing_data_context_distilbert.txt
+Validation data:	features_context/validation_data_context_distilbert.txt
+Feature vector representation: Dense.
+Ranking method:	RankNet
+Feature description file:	Unspecified. All features will be used.
+Train metric:	ERR@10
+Test metric:	MAP
+Highest relevance label (to compute ERR): 1
+Feature normalization: No
+Model file: models/L2R_distilbert.txt
+
+[+] RankNet's Parameters:
+No. of epochs: 100
+No. of hidden layers: 1
+No. of hidden nodes per layer: 10
+Learning rate: 5.0E-5
+
+
+...
+
+---------------------------------
+Finished sucessfully.
+ERR@10 on training data: 0.5072
+ERR@10 on validation data: 0.4439
+---------------------------------
+MAP on test data: 0.0196
+```
+
 ### Context embedding - AlBERT
+
+We used to following to create the model for DistilBERT:
+
+`java -jar RankLib-2.15.jar -train features_context/training_data_context_albert.txt -ranker 1 -gmax 1 -validate features_context/validation_data_context_albert.txt -test features_context/testing_data_context_albert.txt -metric2T MAP -save models/L2R_albert.txt`
+
+The output is as follows:
+
+```
+Discard orig. features
+Training data:	features_context/training_data_context_albert.txt
+Test data:	features_context/testing_data_context_albert.txt
+Validation data:	features_context/validation_data_context_albert.txt
+Feature vector representation: Dense.
+Ranking method:	RankNet
+Feature description file:	Unspecified. All features will be used.
+Train metric:	ERR@10
+Test metric:	MAP
+Highest relevance label (to compute ERR): 1
+Feature normalization: No
+Model file: models/L2R_albert.txt
+
+[+] RankNet's Parameters:
+No. of epochs: 100
+No. of hidden layers: 1
+No. of hidden nodes per layer: 10
+Learning rate: 5.0E-5
+
+
+...
+
+---------------------------------
+Finished sucessfully.
+ERR@10 on training data: 0.5072
+ERR@10 on validation data: 0.4439
+---------------------------------
+MAP on test data: 0.0158
+```
 
 ### Word embedding + core - FastText
 
@@ -193,4 +267,86 @@ ERR@10 on training data: 0.4967
 ERR@10 on validation data: 0.4439
 ------------------------------------
 MAP on test data: 0.0209
+```
+
+### Context embedding + core - DistilBERT
+
+We create a random forest model as follows:
+
+`java -jar RankLib-2.15.jar -train features_context/training_data_context_distilbert_core.txt -ranker 8 -gmax 5 -validate features_context/validation_data_context_distilbert_core.txt -test features_context/testing_data_context_distilbert_core.txt -metric2T MAP -save models/L2R_distilbert_core.txt`
+
+The output is as follows:
+
+```
+Discard orig. features
+Training data:	features_context/training_data_context_distilbert_core.txt
+Test data:	features_context/testing_data_context_distilbert_core.txt
+Validation data:	features_context/validation_data_context_distilbert_core.txt
+Feature vector representation: Dense.
+Ranking method:	Random Forests
+Feature description file:	Unspecified. All features will be used.
+Train metric:	ERR@10
+Test metric:	MAP
+Highest relevance label (to compute ERR): 5
+Feature normalization: No
+Model file: models/L2R_distilbert_core.txt
+
+[+] Random Forests's Parameters:
+No. of bags: 300
+Sub-sampling: 1.0
+Feature-sampling: 0.3
+No. of trees: 1
+No. of leaves: 100
+No. of threshold candidates: 256
+Learning rate: 0.1
+
+...
+
+------------------------------------
+Finished sucessfully.
+ERR@10 on training data: 0.0322
+ERR@10 on validation data: 0.0282
+------------------------------------
+MAP on test data: 0.0168
+```
+
+### Context embedding + core - ALBERT
+
+We create a random forest model as follows:
+
+`java -jar RankLib-2.15.jar -train features_context/training_data_context_albert_core.txt -ranker 8 -gmax 5 -validate features_context/validation_data_context_albert_core.txt -test features_context/testing_data_context_albert_core.txt -metric2T MAP -save models/L2R_albert_core.txt`
+
+The output is as follows:
+
+```
+Discard orig. features
+Training data:	features_context/training_data_context_albert_core.txt
+Test data:	features_context/testing_data_context_albert_core.txt
+Validation data:	features_context/validation_data_context_albert_core.txt
+Feature vector representation: Dense.
+Ranking method:	Random Forests
+Feature description file:	Unspecified. All features will be used.
+Train metric:	ERR@10
+Test metric:	MAP
+Highest relevance label (to compute ERR): 5
+Feature normalization: No
+Model file: models/L2R_albert_core.txt
+
+[+] Random Forests's Parameters:
+No. of bags: 300
+Sub-sampling: 1.0
+Feature-sampling: 0.3
+No. of trees: 1
+No. of leaves: 100
+No. of threshold candidates: 256
+Learning rate: 0.1
+
+...
+
+------------------------------------
+Finished sucessfully.
+ERR@10 on training data: 0.0322
+ERR@10 on validation data: 0.0282
+------------------------------------
+MAP on test data: 0.0168
 ```
