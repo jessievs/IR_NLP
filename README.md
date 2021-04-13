@@ -2,7 +2,7 @@
 
 ## MS Marco dataset
 
-The MS Marco data needed to run this code is the collectionsandqueries file. Part of the files can be founded in this repo. Larger files need to be downloaded and added to the folder.
+The MS Marco data needed to run this code is the `collectionsandqueries`3 file. Part of the files can be founded in this repo. Larger files need to be downloaded and added to the folder.
 
 ## Core features
 
