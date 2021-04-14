@@ -55,4 +55,4 @@ with open('features_context/testing_data_context_distilbert_core.txt', 'w+') as 
     for index in tqdm(range(len(testing_data_context))):
         row_context = testing_data_context.iloc[index] # NLP features
         row = testing_data.iloc[index]      # core features
-        file.write('{} qid:{} 1:{} 2:{} 3:{} 4:{} 5:{} 6:{} 7:{} 8:{} # docid = {} \n'.format(int(row['rating']), int(row['qid']), row['bm25'], row['passage_length'], row['c'], row['df'], row['cf'], row['idf'], row['c_idf'], int(row_context['score_qa_distilbert']), int(row['docid'])))
+        file.write('{} qid:{} 1:{} 2:{} 3:{} 4:{} 5:{} 6:{} 7:{} 8:{} # docid = {} \n'.format(int(row['rating']), int(row['qid']), row['bm25'], row['passage_length'], row['c'], row['df'], row['cf'], row['idf'], row['c_idf'], row_context['score_qa_distilbert'], int(row['docid'])))
