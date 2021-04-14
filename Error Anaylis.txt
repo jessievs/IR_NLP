@@ -1,0 +1,66 @@
+Errror Analysis
+
+Albert.txt (All trec have the same result 0.50733)
+
+Q1:
+130510 definition declaratory judgment
+map                     130510  0.2638
+recip_rank              130510  0.1667
+P_10                    130510  0.2000
+recall_1000             130510  1.0000
+ndcg                    130510  0.5571
+ndcg_cut_5              130510  0.0000
+ndcg_cut_10             130510  0.0556
+ndcg_cut_100            130510  0.4280
+
+
+Docid: 2490152 1 {Passage : "What is the significance of the repeal of the Stamp Act and the passage of the Declaratory Act?"}
+Docid: 8612908 2 {Passage : "A binding judgment from a court defining the legal relationship between parties and their rights in the matter before the court."} 
+Docid: 783665 3 {Passage : "The purpose of the British Declaratory Act of 1766 is for Great Britain to have ultimate control of the English Colonies."} 
+
+Q2 : 359349 :how to find the midsegment of a trapezoid
+map                     359349  0.3545
+recip_rank              359349  0.2000
+P_10                    359349  0.3000
+recall_1000             359349  1.0000
+ndcg                    359349  0.5994
+ndcg_cut_5              359349  0.0437
+ndcg_cut_10             359349  0.1289
+ndcg_cut_100            359349  0.4193
+
+Docid: 1830509 1  {Passage : "Midsegment definition, a line joining the midpoints of two sides of a triangle. See more."}
+Docid: 3265504 2  {Passage : "In the given figure, the line segment DE is the bisector of the segment AC as it intersects the line segment AC at its midpoint B."}
+Docid: 4816996 3  {Passage : "Volume measurement unit conversions for all metric, US customary and imperial units such as liters, gallons, quarts and pints."}
+
+
+Albert_CORE 
+
+Q1:
+1114646 what is famvir prescribed for
+map                     1114646 0.3171
+recip_rank              1114646 0.1111
+P_10                    1114646 0.1000
+recall_1000             1114646 1.0000
+ndcg                    1114646 0.5659
+ndcg_cut_5              1114646 0.0000
+ndcg_cut_10             1114646 0.0243
+ndcg_cut_100            1114646 0.4424
+
+Docid: 1002453 1  {Passage : "Bacterial Infections. Azithromycin is most commonly used to treat the following infections: 1  Respiratory infections, such as bronchitis. 2  Ear infections (otitis media). 3  Sinus infections (sinusitis). 4  Pneumonia. 5  Throat infections (tonsillitis/ pharyngitis). 6  Skin infections, such as cellulitis, folliculitis, or impetigo."}
+Docid: 1216492 2  {Passage : "Moban is a prescription medication that is used for treating schizophrenia. This eMedTV page provides general dosing information for the drug, explains how it works to control schizophrenia symptoms, and lists potential side effects that may occur."}
+Docid: 1316103 3  {Passage : "The shingles rash appears as painful skin blisters that appear on only one side of the face or body along the distribution of nerves on the skin. Typically, the rash occurs along your chest, back, abdomen, or face, but it may also affect other parts of the body like the limbs, neck, or lower back.rugs that fight viruses (antiviral drugs), such as acyclovir (Zovirax), valacyclovir (Valtrex), or famciclovir (Famvir), can reduce the severity and duration of the shingles rash if started early (within 72 hours of the appearance of the rash). In addition to antiviral medications, pain medications may be given."}
+
+Q2:
+207786 : how are some sharks warm blooded
+map                     207786  0.2653
+recip_rank              207786  0.0667
+P_10                    207786  0.0000
+recall_1000             207786  1.0000
+ndcg                    207786  0.5226
+ndcg_cut_5              207786  0.0000
+ndcg_cut_10             207786  0.0000
+ndcg_cut_100            207786  0.4226
+
+Docid : 1029962 1 {Passage : "1/6. 1  In Gansbaai, the largest white shark ever caught was at Danger Point and measured up to 5.9m. 2  If you see a white shark in the water don\u00e2\u0080\u0099t panic. 3  White sharks have a unique system called a \u00e2\u0080\u009ccounter current heat exchange\u00e2\u0080\u009d, which keeps their body tempreture +/- 7C above the surrounding water temperature."}
+Docid : 1085406 2 {Passage : " 1 Bull sharks are the most dangerous sharks in the world, according to many experts. 2  This is because they're an aggressive species of shark, and they tend to hunt in waters where people often swim: along tropical shorelines. 3  Bull sharks live throughout the world, in shallow, warm ocean waters. Facts about Bull Sharks: 2  Bull sharks are the most dangerous sharks in the world, according to many experts. 3  This is because they're an aggressive species of shark, and they tend to hunt in waters where people often swim: along tropical shorelines. 4  Bull sharks live throughout the world, in shallow, warm ocean waters."}
+Docid : 1275020 3 {Passage : ""By the end of the 21st century, however, global warming is likely to cause an increase in Earth's temperature of around 2\u00e2\u0080\u00935 degrees Celsius. There is a 75 percent chance of a 2\u00e2\u0080\u00933 degree warming and a 50 percent chance of a 5 degree warming, and scientists agree that the warming is most likely to be around 3 degrees."}
