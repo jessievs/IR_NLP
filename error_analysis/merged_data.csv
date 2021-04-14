@@ -7,7 +7,7 @@
 5,map,1037798,0.0998,fasttext_core,who is robert gray
 6,map,1037798,0.0874,glove,who is robert gray
 7,map,1037798,0.1101,glove_core,who is robert gray
-8,map,1037798,0.1518,original,who is robert gray
+8,map,1037798,0.1518,core,who is robert gray
 9,map,104861,0.435,albert,cost of interior concrete flooring
 10,map,104861,0.4237,albert_core,cost of interior concrete flooring
 11,map,104861,0.4237,distilbert,cost of interior concrete flooring
@@ -16,7 +16,7 @@
 14,map,104861,0.5104,fasttext_core,cost of interior concrete flooring
 15,map,104861,0.5631,glove,cost of interior concrete flooring
 16,map,104861,0.5219,glove_core,cost of interior concrete flooring
-17,map,104861,0.5452,original,cost of interior concrete flooring
+17,map,104861,0.5452,core,cost of interior concrete flooring
 18,map,1063750,0.6328,albert,why did the us volunterilay enter ww1
 19,map,1063750,0.6499,albert_core,why did the us volunterilay enter ww1
 20,map,1063750,0.6499,distilbert,why did the us volunterilay enter ww1
@@ -25,7 +25,7 @@
 23,map,1063750,0.5825,fasttext_core,why did the us volunterilay enter ww1
 24,map,1063750,0.6779,glove,why did the us volunterilay enter ww1
 25,map,1063750,0.5898,glove_core,why did the us volunterilay enter ww1
-26,map,1063750,0.6005,original,why did the us volunterilay enter ww1
+26,map,1063750,0.6005,core,why did the us volunterilay enter ww1
 27,map,1103812,0.2504,albert,who formed the commonwealth of independent states
 28,map,1103812,0.272,albert_core,who formed the commonwealth of independent states
 29,map,1103812,0.272,distilbert,who formed the commonwealth of independent states
@@ -34,7 +34,7 @@
 32,map,1103812,0.405,fasttext_core,who formed the commonwealth of independent states
 33,map,1103812,0.3124,glove,who formed the commonwealth of independent states
 34,map,1103812,0.4255,glove_core,who formed the commonwealth of independent states
-35,map,1103812,0.3496,original,who formed the commonwealth of independent states
+35,map,1103812,0.3496,core,who formed the commonwealth of independent states
 36,map,1106007,0.3617,albert,define visceral?
 37,map,1106007,0.3696,albert_core,define visceral?
 38,map,1106007,0.3703,distilbert,define visceral?
@@ -43,7 +43,7 @@
 41,map,1106007,0.4001,fasttext_core,define visceral?
 42,map,1106007,0.3591,glove,define visceral?
 43,map,1106007,0.4184,glove_core,define visceral?
-44,map,1106007,0.421,original,define visceral?
+44,map,1106007,0.421,core,define visceral?
 45,map,1110199,0.1696,albert,what is wifi vs bluetooth
 46,map,1110199,0.1739,albert_core,what is wifi vs bluetooth
 47,map,1110199,0.1739,distilbert,what is wifi vs bluetooth
@@ -52,7 +52,7 @@
 50,map,1110199,0.2432,fasttext_core,what is wifi vs bluetooth
 51,map,1110199,0.2475,glove,what is wifi vs bluetooth
 52,map,1110199,0.2694,glove_core,what is wifi vs bluetooth
-53,map,1110199,0.2633,original,what is wifi vs bluetooth
+53,map,1110199,0.2633,core,what is wifi vs bluetooth
 54,map,1112341,0.4998,albert,what is the daily life of thai people
 55,map,1112341,0.498,albert_core,what is the daily life of thai people
 56,map,1112341,0.498,distilbert,what is the daily life of thai people
@@ -61,7 +61,7 @@
 59,map,1112341,0.5863,fasttext_core,what is the daily life of thai people
 60,map,1112341,0.5403,glove,what is the daily life of thai people
 61,map,1112341,0.561,glove_core,what is the daily life of thai people
-62,map,1112341,0.5853,original,what is the daily life of thai people
+62,map,1112341,0.5853,core,what is the daily life of thai people
 63,map,1113437,0.4303,albert,what is physical description of spruce
 64,map,1113437,0.4409,albert_core,what is physical description of spruce
 65,map,1113437,0.4409,distilbert,what is physical description of spruce
@@ -70,7 +70,7 @@
 68,map,1113437,0.4465,fasttext_core,what is physical description of spruce
 69,map,1113437,0.418,glove,what is physical description of spruce
 70,map,1113437,0.4078,glove_core,what is physical description of spruce
-71,map,1113437,0.4692,original,what is physical description of spruce
+71,map,1113437,0.4692,core,what is physical description of spruce
 72,map,1114646,0.3117,albert,what is famvir prescribed for
 73,map,1114646,0.3171,albert_core,what is famvir prescribed for
 74,map,1114646,0.3171,distilbert,what is famvir prescribed for
@@ -79,7 +79,7 @@
 77,map,1114646,0.5347,fasttext_core,what is famvir prescribed for
 78,map,1114646,0.3961,glove,what is famvir prescribed for
 79,map,1114646,0.4918,glove_core,what is famvir prescribed for
-80,map,1114646,0.5551,original,what is famvir prescribed for
+80,map,1114646,0.5551,core,what is famvir prescribed for
 81,map,1114819,0.6805,albert,what is durable medical equipment consist of
 82,map,1114819,0.6972,albert_core,what is durable medical equipment consist of
 83,map,1114819,0.6972,distilbert,what is durable medical equipment consist of
@@ -88,7 +88,7 @@
 86,map,1114819,0.9173,fasttext_core,what is durable medical equipment consist of
 87,map,1114819,0.8243,glove,what is durable medical equipment consist of
 88,map,1114819,0.918,glove_core,what is durable medical equipment consist of
-89,map,1114819,0.9017,original,what is durable medical equipment consist of
+89,map,1114819,0.9017,core,what is durable medical equipment consist of
 90,map,1115776,0.1636,albert,what is an aml surveillance analyst
 91,map,1115776,0.1897,albert_core,what is an aml surveillance analyst
 92,map,1115776,0.1897,distilbert,what is an aml surveillance analyst
@@ -97,7 +97,7 @@
 95,map,1115776,0.1749,fasttext_core,what is an aml surveillance analyst
 96,map,1115776,0.1745,glove,what is an aml surveillance analyst
 97,map,1115776,0.158,glove_core,what is an aml surveillance analyst
-98,map,1115776,0.157,original,what is an aml surveillance analyst
+98,map,1115776,0.157,core,what is an aml surveillance analyst
 99,map,1117099,0.4413,albert,what is a active margin
 100,map,1117099,0.4773,albert_core,what is a active margin
 101,map,1117099,0.4773,distilbert,what is a active margin
@@ -106,7 +106,7 @@
 104,map,1117099,0.6537,fasttext_core,what is a active margin
 105,map,1117099,0.5402,glove,what is a active margin
 106,map,1117099,0.6188,glove_core,what is a active margin
-107,map,1117099,0.6607,original,what is a active margin
+107,map,1117099,0.6607,core,what is a active margin
 108,map,1121402,0.2657,albert,what can contour plowing reduce
 109,map,1121402,0.2855,albert_core,what can contour plowing reduce
 110,map,1121402,0.2855,distilbert,what can contour plowing reduce
@@ -115,7 +115,7 @@
 113,map,1121402,0.7044,fasttext_core,what can contour plowing reduce
 114,map,1121402,0.4159,glove,what can contour plowing reduce
 115,map,1121402,0.4918,glove_core,what can contour plowing reduce
-116,map,1121402,0.5682,original,what can contour plowing reduce
+116,map,1121402,0.5682,core,what can contour plowing reduce
 117,map,1121709,0.1099,albert,what are the three percenters?
 118,map,1121709,0.1417,albert_core,what are the three percenters?
 119,map,1121709,0.1417,distilbert,what are the three percenters?
@@ -124,7 +124,7 @@
 122,map,1121709,0.0872,fasttext_core,what are the three percenters?
 123,map,1121709,0.1637,glove,what are the three percenters?
 124,map,1121709,0.101,glove_core,what are the three percenters?
-125,map,1121709,0.108,original,what are the three percenters?
+125,map,1121709,0.108,core,what are the three percenters?
 126,map,1124210,0.4385,albert,tracheids are part of _____.
 127,map,1124210,0.4768,albert_core,tracheids are part of _____.
 128,map,1124210,0.4768,distilbert,tracheids are part of _____.
@@ -133,7 +133,7 @@
 131,map,1124210,0.9534,fasttext_core,tracheids are part of _____.
 132,map,1124210,0.526,glove,tracheids are part of _____.
 133,map,1124210,0.9577,glove_core,tracheids are part of _____.
-134,map,1124210,0.9532,original,tracheids are part of _____.
+134,map,1124210,0.9532,core,tracheids are part of _____.
 135,map,1129237,0.198,albert,hydrogen is a liquid below what temperature
 136,map,1129237,0.2375,albert_core,hydrogen is a liquid below what temperature
 137,map,1129237,0.2393,distilbert,hydrogen is a liquid below what temperature
@@ -142,7 +142,7 @@
 140,map,1129237,0.2859,fasttext_core,hydrogen is a liquid below what temperature
 141,map,1129237,0.318,glove,hydrogen is a liquid below what temperature
 142,map,1129237,0.2687,glove_core,hydrogen is a liquid below what temperature
-143,map,1129237,0.3054,original,hydrogen is a liquid below what temperature
+143,map,1129237,0.3054,core,hydrogen is a liquid below what temperature
 144,map,1133167,0.5462,albert,how is the weather in jamaica
 145,map,1133167,0.5572,albert_core,how is the weather in jamaica
 146,map,1133167,0.5572,distilbert,how is the weather in jamaica
@@ -151,7 +151,7 @@
 149,map,1133167,0.7931,fasttext_core,how is the weather in jamaica
 150,map,1133167,0.6129,glove,how is the weather in jamaica
 151,map,1133167,0.7205,glove_core,how is the weather in jamaica
-152,map,1133167,0.7122,original,how is the weather in jamaica
+152,map,1133167,0.7122,core,how is the weather in jamaica
 153,map,130510,0.2638,albert,definition declaratory judgment
 154,map,130510,0.3666,albert_core,definition declaratory judgment
 155,map,130510,0.3666,distilbert,definition declaratory judgment
@@ -160,7 +160,7 @@
 158,map,130510,0.6818,fasttext_core,definition declaratory judgment
 159,map,130510,0.6572,glove,definition declaratory judgment
 160,map,130510,0.6196,glove_core,definition declaratory judgment
-161,map,130510,0.6613,original,definition declaratory judgment
+161,map,130510,0.6613,core,definition declaratory judgment
 162,map,131843,0.7323,albert,definition of a sigmet
 163,map,131843,0.72,albert_core,definition of a sigmet
 164,map,131843,0.72,distilbert,definition of a sigmet
@@ -169,7 +169,7 @@
 167,map,131843,0.6517,fasttext_core,definition of a sigmet
 168,map,131843,0.5558,glove,definition of a sigmet
 169,map,131843,0.6409,glove_core,definition of a sigmet
-170,map,131843,0.6701,original,definition of a sigmet
+170,map,131843,0.6701,core,definition of a sigmet
 171,map,146187,0.2297,albert,difference between a mcdouble and a double cheeseburger
 172,map,146187,0.3039,albert_core,difference between a mcdouble and a double cheeseburger
 173,map,146187,0.304,distilbert,difference between a mcdouble and a double cheeseburger
@@ -178,7 +178,7 @@
 176,map,146187,0.5398,fasttext_core,difference between a mcdouble and a double cheeseburger
 177,map,146187,0.2531,glove,difference between a mcdouble and a double cheeseburger
 178,map,146187,0.5169,glove_core,difference between a mcdouble and a double cheeseburger
-179,map,146187,0.4467,original,difference between a mcdouble and a double cheeseburger
+179,map,146187,0.4467,core,difference between a mcdouble and a double cheeseburger
 180,map,148538,0.5768,albert,difference between rn and bsn
 181,map,148538,0.5558,albert_core,difference between rn and bsn
 182,map,148538,0.5558,distilbert,difference between rn and bsn
@@ -187,7 +187,7 @@
 185,map,148538,0.6482,fasttext_core,difference between rn and bsn
 186,map,148538,0.6109,glove,difference between rn and bsn
 187,map,148538,0.6793,glove_core,difference between rn and bsn
-188,map,148538,0.7005,original,difference between rn and bsn
+188,map,148538,0.7005,core,difference between rn and bsn
 189,map,156493,0.3823,albert,do goldfish grow
 190,map,156493,0.4109,albert_core,do goldfish grow
 191,map,156493,0.4109,distilbert,do goldfish grow
@@ -196,7 +196,7 @@
 194,map,156493,0.5395,fasttext_core,do goldfish grow
 195,map,156493,0.473,glove,do goldfish grow
 196,map,156493,0.4923,glove_core,do goldfish grow
-197,map,156493,0.5614,original,do goldfish grow
+197,map,156493,0.5614,core,do goldfish grow
 198,map,168216,0.4274,albert,does legionella pneumophila cause pneumonia
 199,map,168216,0.4386,albert_core,does legionella pneumophila cause pneumonia
 200,map,168216,0.4386,distilbert,does legionella pneumophila cause pneumonia
@@ -205,7 +205,7 @@
 203,map,168216,0.5744,fasttext_core,does legionella pneumophila cause pneumonia
 204,map,168216,0.4908,glove,does legionella pneumophila cause pneumonia
 205,map,168216,0.5901,glove_core,does legionella pneumophila cause pneumonia
-206,map,168216,0.5424,original,does legionella pneumophila cause pneumonia
+206,map,168216,0.5424,core,does legionella pneumophila cause pneumonia
 207,map,182539,0.4456,albert,example of monotonic function
 208,map,182539,0.471,albert_core,example of monotonic function
 209,map,182539,0.471,distilbert,example of monotonic function
@@ -214,7 +214,7 @@
 212,map,182539,0.7443,fasttext_core,example of monotonic function
 213,map,182539,0.8166,glove,example of monotonic function
 214,map,182539,0.713,glove_core,example of monotonic function
-215,map,182539,0.7836,original,example of monotonic function
+215,map,182539,0.7836,core,example of monotonic function
 216,map,183378,0.4837,albert,exons definition biology
 217,map,183378,0.4971,albert_core,exons definition biology
 218,map,183378,0.4971,distilbert,exons definition biology
@@ -223,7 +223,7 @@
 221,map,183378,0.6735,fasttext_core,exons definition biology
 222,map,183378,0.5647,glove,exons definition biology
 223,map,183378,0.6678,glove_core,exons definition biology
-224,map,183378,0.634,original,exons definition biology
+224,map,183378,0.634,core,exons definition biology
 225,map,19335,0.1054,albert,anthropological definition of environment
 226,map,19335,0.1141,albert_core,anthropological definition of environment
 227,map,19335,0.1143,distilbert,anthropological definition of environment
@@ -232,7 +232,7 @@
 230,map,19335,0.1331,fasttext_core,anthropological definition of environment
 231,map,19335,0.1243,glove,anthropological definition of environment
 232,map,19335,0.1396,glove_core,anthropological definition of environment
-233,map,19335,0.1189,original,anthropological definition of environment
+233,map,19335,0.1189,core,anthropological definition of environment
 234,map,207786,0.2213,albert,how are some sharks warm blooded
 235,map,207786,0.2653,albert_core,how are some sharks warm blooded
 236,map,207786,0.2659,distilbert,how are some sharks warm blooded
@@ -241,7 +241,7 @@
 239,map,207786,0.3961,fasttext_core,how are some sharks warm blooded
 240,map,207786,0.3697,glove,how are some sharks warm blooded
 241,map,207786,0.2735,glove_core,how are some sharks warm blooded
-242,map,207786,0.3207,original,how are some sharks warm blooded
+242,map,207786,0.3207,core,how are some sharks warm blooded
 243,map,264014,0.5184,albert,how long is life cycle of flea
 244,map,264014,0.5403,albert_core,how long is life cycle of flea
 245,map,264014,0.5403,distilbert,how long is life cycle of flea
@@ -250,7 +250,7 @@
 248,map,264014,0.712,fasttext_core,how long is life cycle of flea
 249,map,264014,0.6372,glove,how long is life cycle of flea
 250,map,264014,0.6758,glove_core,how long is life cycle of flea
-251,map,264014,0.6982,original,how long is life cycle of flea
+251,map,264014,0.6982,core,how long is life cycle of flea
 252,map,359349,0.3545,albert,how to find the midsegment of a trapezoid
 253,map,359349,0.3865,albert_core,how to find the midsegment of a trapezoid
 254,map,359349,0.3865,distilbert,how to find the midsegment of a trapezoid
@@ -259,7 +259,7 @@
 257,map,359349,0.536,fasttext_core,how to find the midsegment of a trapezoid
 258,map,359349,0.3534,glove,how to find the midsegment of a trapezoid
 259,map,359349,0.4789,glove_core,how to find the midsegment of a trapezoid
-260,map,359349,0.5945,original,how to find the midsegment of a trapezoid
+260,map,359349,0.5945,core,how to find the midsegment of a trapezoid
 261,map,405717,0.1851,albert,is cdg airport in main paris
 262,map,405717,0.1958,albert_core,is cdg airport in main paris
 263,map,405717,0.1969,distilbert,is cdg airport in main paris
@@ -268,7 +268,7 @@
 266,map,405717,0.2588,fasttext_core,is cdg airport in main paris
 267,map,405717,0.3222,glove,is cdg airport in main paris
 268,map,405717,0.2455,glove_core,is cdg airport in main paris
-269,map,405717,0.3967,original,is cdg airport in main paris
+269,map,405717,0.3967,core,is cdg airport in main paris
 270,map,443396,0.6006,albert,lps laws definition
 271,map,443396,0.6569,albert_core,lps laws definition
 272,map,443396,0.6569,distilbert,lps laws definition
@@ -277,7 +277,7 @@
 275,map,443396,0.3429,fasttext_core,lps laws definition
 276,map,443396,0.5733,glove,lps laws definition
 277,map,443396,0.3477,glove_core,lps laws definition
-278,map,443396,0.3528,original,lps laws definition
+278,map,443396,0.3528,core,lps laws definition
 279,map,451602,0.6436,albert,medicare's definition of mechanical ventilation
 280,map,451602,0.6302,albert_core,medicare's definition of mechanical ventilation
 281,map,451602,0.6302,distilbert,medicare's definition of mechanical ventilation
@@ -286,7 +286,7 @@
 284,map,451602,0.6522,fasttext_core,medicare's definition of mechanical ventilation
 285,map,451602,0.6405,glove,medicare's definition of mechanical ventilation
 286,map,451602,0.6364,glove_core,medicare's definition of mechanical ventilation
-287,map,451602,0.6354,original,medicare's definition of mechanical ventilation
+287,map,451602,0.6354,core,medicare's definition of mechanical ventilation
 288,map,47923,0.6794,albert,axon terminals or synaptic knob definition
 289,map,47923,0.7273,albert_core,axon terminals or synaptic knob definition
 290,map,47923,0.7273,distilbert,axon terminals or synaptic knob definition
@@ -295,7 +295,7 @@
 293,map,47923,0.8662,fasttext_core,axon terminals or synaptic knob definition
 294,map,47923,0.9252,glove,axon terminals or synaptic knob definition
 295,map,47923,0.8643,glove_core,axon terminals or synaptic knob definition
-296,map,47923,0.8906,original,axon terminals or synaptic knob definition
+296,map,47923,0.8906,core,axon terminals or synaptic knob definition
 297,map,489204,0.5105,albert,right pelvic pain causes
 298,map,489204,0.5062,albert_core,right pelvic pain causes
 299,map,489204,0.5062,distilbert,right pelvic pain causes
@@ -304,7 +304,7 @@
 302,map,489204,0.6203,fasttext_core,right pelvic pain causes
 303,map,489204,0.5717,glove,right pelvic pain causes
 304,map,489204,0.6439,glove_core,right pelvic pain causes
-305,map,489204,0.6024,original,right pelvic pain causes
+305,map,489204,0.6024,core,right pelvic pain causes
 306,map,490595,0.3391,albert,rsa definition key
 307,map,490595,0.3127,albert_core,rsa definition key
 308,map,490595,0.3127,distilbert,rsa definition key
@@ -313,7 +313,7 @@
 311,map,490595,0.5721,fasttext_core,rsa definition key
 312,map,490595,0.4231,glove,rsa definition key
 313,map,490595,0.5693,glove_core,rsa definition key
-314,map,490595,0.5944,original,rsa definition key
+314,map,490595,0.5944,core,rsa definition key
 315,map,527433,0.4976,albert,types of dysarthria from cerebral palsy
 316,map,527433,0.5116,albert_core,types of dysarthria from cerebral palsy
 317,map,527433,0.5116,distilbert,types of dysarthria from cerebral palsy
@@ -322,7 +322,7 @@
 320,map,527433,0.4157,fasttext_core,types of dysarthria from cerebral palsy
 321,map,527433,0.4458,glove,types of dysarthria from cerebral palsy
 322,map,527433,0.4485,glove_core,types of dysarthria from cerebral palsy
-323,map,527433,0.4193,original,types of dysarthria from cerebral palsy
+323,map,527433,0.4193,core,types of dysarthria from cerebral palsy
 324,map,573724,0.495,albert,what are the social determinants of health
 325,map,573724,0.5469,albert_core,what are the social determinants of health
 326,map,573724,0.5469,distilbert,what are the social determinants of health
@@ -331,7 +331,7 @@
 329,map,573724,0.6628,fasttext_core,what are the social determinants of health
 330,map,573724,0.6361,glove,what are the social determinants of health
 331,map,573724,0.7014,glove_core,what are the social determinants of health
-332,map,573724,0.7155,original,what are the social determinants of health
+332,map,573724,0.7155,core,what are the social determinants of health
 333,map,833860,0.4495,albert,what is the most popular food in switzerland
 334,map,833860,0.5103,albert_core,what is the most popular food in switzerland
 335,map,833860,0.5103,distilbert,what is the most popular food in switzerland
@@ -340,7 +340,7 @@
 338,map,833860,0.4952,fasttext_core,what is the most popular food in switzerland
 339,map,833860,0.5251,glove,what is the most popular food in switzerland
 340,map,833860,0.4458,glove_core,what is the most popular food in switzerland
-341,map,833860,0.4677,original,what is the most popular food in switzerland
+341,map,833860,0.4677,core,what is the most popular food in switzerland
 342,map,855410,0.1089,albert,what is theraderm used for
 343,map,855410,0.1795,albert_core,what is theraderm used for
 344,map,855410,0.1795,distilbert,what is theraderm used for
@@ -349,7 +349,7 @@
 347,map,855410,0.1098,fasttext_core,what is theraderm used for
 348,map,855410,0.1569,glove,what is theraderm used for
 349,map,855410,0.0977,glove_core,what is theraderm used for
-350,map,855410,0.8875,original,what is theraderm used for
+350,map,855410,0.8875,core,what is theraderm used for
 351,map,87181,0.6207,albert,causes of left ventricular hypertrophy
 352,map,87181,0.6207,albert_core,causes of left ventricular hypertrophy
 353,map,87181,0.6207,distilbert,causes of left ventricular hypertrophy
@@ -358,7 +358,7 @@
 356,map,87181,0.8652,fasttext_core,causes of left ventricular hypertrophy
 357,map,87181,0.7908,glove,causes of left ventricular hypertrophy
 358,map,87181,0.8554,glove_core,causes of left ventricular hypertrophy
-359,map,87181,0.8197,original,causes of left ventricular hypertrophy
+359,map,87181,0.8197,core,causes of left ventricular hypertrophy
 360,map,87452,0.6234,albert,causes of military suicide
 361,map,87452,0.6234,albert_core,causes of military suicide
 362,map,87452,0.6234,distilbert,causes of military suicide
@@ -367,7 +367,7 @@
 365,map,87452,0.5821,fasttext_core,causes of military suicide
 366,map,87452,0.7054,glove,causes of military suicide
 367,map,87452,0.586,glove_core,causes of military suicide
-368,map,87452,0.5939,original,causes of military suicide
+368,map,87452,0.5939,core,causes of military suicide
 369,map,915593,0.4605,albert,what types of food can you cook sous vide
 370,map,915593,0.4605,albert_core,what types of food can you cook sous vide
 371,map,915593,0.4605,distilbert,what types of food can you cook sous vide
@@ -376,7 +376,7 @@
 374,map,915593,0.5511,fasttext_core,what types of food can you cook sous vide
 375,map,915593,0.5333,glove,what types of food can you cook sous vide
 376,map,915593,0.5101,glove_core,what types of food can you cook sous vide
-377,map,915593,0.5406,original,what types of food can you cook sous vide
+377,map,915593,0.5406,core,what types of food can you cook sous vide
 378,map,962179,0.1166,albert,when was the salvation army founded
 379,map,962179,0.1196,albert_core,when was the salvation army founded
 380,map,962179,0.12,distilbert,when was the salvation army founded
@@ -385,4 +385,4 @@
 383,map,962179,0.1672,fasttext_core,when was the salvation army founded
 384,map,962179,0.2266,glove,when was the salvation army founded
 385,map,962179,0.155,glove_core,when was the salvation army founded
-386,map,962179,0.1615,original,when was the salvation army founded
+386,map,962179,0.1615,core,when was the salvation army founded

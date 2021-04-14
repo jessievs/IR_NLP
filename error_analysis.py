@@ -22,7 +22,7 @@ def process(modelname):
     return map
 
 # Saving model names
-modelnames = ['albert', 'albert_core', 'distilbert', 'distilbert_core', 'fasttext', 'fasttext_core', 'glove', 'glove_core', 'original']
+modelnames = ['albert', 'albert_core', 'distilbert', 'distilbert_core', 'fasttext', 'fasttext_core', 'glove', 'glove_core', 'core']
 
 # Combining data
 combined = pd.DataFrame([], columns=['metric', 'qid', 'value', 'modelname'])
