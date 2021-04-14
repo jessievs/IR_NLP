@@ -350,3 +350,15 @@ ERR@10 on validation data: 0.0282
 ------------------------------------
 MAP on test data: 0.0168
 ```
+
+
+### Commands used
+
+For running the test data on the model use the following command and replace `$MODEL` by either one of the option like fasttext_core, glove, albert etc..:
+
+` java -jar RankLib-2.15.jar -load models/L2R_$MODEL.txt -rank features_word/testing_data_word_$MODEL.txt -indri runs/$MODEL.trec `
+
+To obtain the trec_eval score run the following command after obtaining the run results:
+You are free to change the parameters to obtain other metrics.
+
+` trec_eval.9.0.4/trec_eval -c -q -mrecall.1000 -mmap -mndcg -m ndcg_cut.5,10,100 -mP.10 -mgm_map -mrecip_rank.10  collections/msmarco-passage/2019qrels-pass.trec runs/$MODEL.trec > evaluations/$MODEL.txt `
