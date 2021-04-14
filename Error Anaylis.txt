@@ -64,3 +64,72 @@ ndcg_cut_100            207786  0.4226
 Docid : 1029962 1 {Passage : "1/6. 1  In Gansbaai, the largest white shark ever caught was at Danger Point and measured up to 5.9m. 2  If you see a white shark in the water don\u00e2\u0080\u0099t panic. 3  White sharks have a unique system called a \u00e2\u0080\u009ccounter current heat exchange\u00e2\u0080\u009d, which keeps their body tempreture +/- 7C above the surrounding water temperature."}
 Docid : 1085406 2 {Passage : " 1 Bull sharks are the most dangerous sharks in the world, according to many experts. 2  This is because they're an aggressive species of shark, and they tend to hunt in waters where people often swim: along tropical shorelines. 3  Bull sharks live throughout the world, in shallow, warm ocean waters. Facts about Bull Sharks: 2  Bull sharks are the most dangerous sharks in the world, according to many experts. 3  This is because they're an aggressive species of shark, and they tend to hunt in waters where people often swim: along tropical shorelines. 4  Bull sharks live throughout the world, in shallow, warm ocean waters."}
 Docid : 1275020 3 {Passage : ""By the end of the 21st century, however, global warming is likely to cause an increase in Earth's temperature of around 2\u00e2\u0080\u00935 degrees Celsius. There is a 75 percent chance of a 2\u00e2\u0080\u00933 degree warming and a 50 percent chance of a 5 degree warming, and scientists agree that the warming is most likely to be around 3 degrees."}
+
+
+DistilBert
+
+Q1
+168216  does legionella pneumophila cause pneumonia
+map                     168216  0.4386
+recip_rank              168216  0.1250
+P_10                    168216  0.1000
+recall_1000             168216  1.0000
+ndcg                    168216  0.7558
+ndcg_cut_5              168216  0.0000
+ndcg_cut_10             168216  0.0463
+
+
+Docid : 2210774 1 {Passage : "Legionnaires disease, also called legionellosis, is caused by the bacteria Legionella pneumophila and related species. These organisms have been found in water delivery systems. The infection can be caught by inhaling mists from water contaminated with the germs.Outbreaks have been traced to contaminated whirlpool spas, humidifiers, and air conditioning cooling towers and have occurred in hospitals, hotels, and cruise ships. The incubation period for legionnaires disease is 2 to 10 days.The disease and the organism that causes legionnaires disease were identified and got their names from the first known outbreak, at an American Legion convention held at a Philadelphia, PA, hotel in 1976.egionnaires disease, also called legionellosis, is caused by the bacteria Legionella pneumophila and related species. These organisms have been found in water delivery systems. The infection can be caught by inhaling mists from water contaminated with the germs."}
+Docid : 2210773 2 {Passage : "History. Two distinct clinical syndromes can be caused by different species, 'pneumonic' (LD) and 'non-pneumonic' (primarily Pontiac fever). Pneumonic-the more severe, also called Legionnaires' disease. 1  The incubation period is usually 2-10 days (average 6-7 days).2  There is a prodrome for a day or two of mild headache and myalgia, followed by high fever, chills, rigors and a cough.istory. Two distinct clinical syndromes can be caused by different species, 'pneumonic' (LD) and 'non-pneumonic' (primarily Pontiac fever). Pneumonic-the more severe, also called Legionnaires' disease. 1  The incubation period is usually 2-10 days (average 6-7 days)."}
+Docid : 2210776 3 {Passage : "The main symptoms are fever, chills, headache, malaise and muscle pain (myalgia). No deaths are associated with this type of infection. Legionnaires\u00e2\u0080\u0099 disease has an incubation period of 2 to 10 days (but up to 16 days has been recorded in some recent well-documented outbreaks).Initially, symptoms are fever, loss of appetite, headache, malaise and lethargy.Some patients may also have muscle pain, diarrhoea and confusion.egionnaires\u00e2\u0080\u0099 disease has an incubation period of 2 to 10 days (but up to 16 days has been recorded in some recent well-documented outbreaks). Initially, symptoms are fever, loss of appetite, headache, malaise and lethargy. Some patients may also have muscle pain, diarrhoea and confusion."}
+
+Q2
+1124210 tracheids are part of _____.
+
+map                     1124210 0.4768
+recip_rank              1124210 1.0000
+P_10                    1124210 0.6000
+recall_1000             1124210 1.0000
+ndcg                    1124210 0.7932
+ndcg_cut_5              1124210 0.4971
+ndcg_cut_10             1124210 0.4123
+ndcg_cut_100            1124210 0.4505
+
+Docid : 5350934 1 {Passage : "Xylem and phloem are the two types of vascular tissues found in plants. Xylem tissues transport water from the roots throughout the plant, while phloem transports food (suga \u00e2\u0080\u00a6 rs) from photosysnthesis throughout the plant. Xylem: tubes that brings water and minerals from the roots into the leaf.Phloem: tubes that usually move sap, with dissolved sucrose, produced by photosynthesis in the leaf, out of the leaf and to other parts of the plant.Both are found in the central vascular bundle. Basically, xylem tranports water and phloem transports organic substances.Xylem is a tissue found in vascular plants that transorts water and dissolved mineral nutrients. It consists of hollow vessels that are formed from cells joined end to end in flowering plants.ylem: tubes that brings water and minerals from the roots into the leaf. Phloem: tubes that usually move sap, with dissolved sucrose, produced by photosynthesis in the leaf, out of the leaf and to other parts of the plant."}
+Docid : 6541868 2 {Passage : "a compound tissue in vascular plants that helps provide support and that conducts water and nutrients upward from the roots, consisting of tracheids, vessels, parenchyma cells, and woody fibers. x\u00c3\u00bdl(on) wood (see phloem)]. (z\u00c4\u00ab\u00e2\u0080\u00b2l\u00c9\u0099m). xylem. Xylem cells in the stem carry water from a plant's roots to its leaves.The phloem distributes food that is made in the plant's leaves to other parts of the plant. The cambium cells divide into either xylem or phloem cells. The cortex and pith, seen in the stem cross section, provide structural support. compound tissue in vascular plants that helps provide support and that conducts water and nutrients upward from the roots, consisting of tracheids, vessels, parenchyma cells, and woody fibers. x\u00c3\u00bdl(on) wood (see phloem)]. (z\u00c4\u00ab\u00e2\u0080\u00b2l\u00c9\u0099m). xylem. Xylem cells in the stem carry water from a plant's roots to its leaves."}
+Docid : 4648414 3 {Passage : "The most distinctive xylem cells are the long tracheary elements that transport water. Tracheids and vessel elements are distinguished by their shape; vessel elements are shorter, and are connected together into long tubes that are called vessels.Xylem also contains two other cell types: parenchyma and fibers.Xylem can be found: 1  in vascular bundles, present in non-woody plants and non-woody parts of woody plants. 2  in secondary xylem, laid down by a meristem called the vascular cambium in woody plants.n most plants, pitted tracheids function as the primary transport cells. The other type of tracheary element, besides the tracheid, is the vessel element. Vessel elements are joined by perforations into vessels. In vessels, water travels by bulk flow, as in a pipe, rather than by diffusion through cell membranes."}
+
+
+Distilbert Core
+Q1
+1037798 who is robert gray
+
+map                     1037798 0.0968
+recip_rank              1037798 0.0909
+P_10                    1037798 0.0000
+recall_1000             1037798 1.0000
+ndcg                    1037798 0.3748
+ndcg_cut_5              1037798 0.0000
+ndcg_cut_10             1037798 0.0000
+ndcg_cut_100            1037798 0.2917
+
+Docid : 1085628 1 {Passage : "Roy Roberts. For other people named Roy Roberts, see Roy Roberts (disambiguation). Roy Roberts (March 19, 1906 \u00e2\u0080\u0093 May 28, 1975) was an American character actor. Over his more than 40-year career, he appeared in more than nine hundred productions on stage and screen."}
+Docid : 1308037 2 {Passage : "Pampa is a city in Gray County, Texas, United States. The population is 17,994, according to the 2010 census. Pampa is the county seat of Gray County and is the principal city of the Pampa Micropolitan Statistical Area, which includes both Gray and Roberts counties.Pampa hosts the Top 'O Texas Rodeo each year in July, which brings competitors from Texas and the surrounding states to Gray County."}
+Docid : 1639088 3 {Passage : "Meaning of Gray. English name. In English, the name Gray means-gray-haired.The name Gray originated as an English name. The name Gray is most often used as a boy name or male name. English Name Meaning-gray-haired. Origin-England."}
+
+Q2
+146187 difference between a mcdouble and a double cheeseburger
+
+map                     146187  0.3039
+recip_rank              146187  0.1667
+P_10                    146187  0.5000
+recall_1000             146187  1.0000
+ndcg                    146187  0.5907
+ndcg_cut_5              146187  0.0000
+ndcg_cut_10             146187  0.3691
+ndcg_cut_100            146187  0.5451
+
+Docid : 1028971 1 {Passage :"BURGER KING\u00c2\u00ae Bacon Cheeseburger Deluxe, Bacon Double Cheeseburger, Bacon Cheeseburger, Double Cheeseburger VALUE Menu"}
+Docid : 1028972 2 {Passage :"Dig into one of our delicious burgers. From the Big Mac\u00c2\u00ae to the McDouble, we've got something you\u00e2\u0080\u0099ll want!"}
+Docid : 1131101 3 {Passage :"Some last meal requests in Texas - not all fulfilled. 1  John Wheat, 13 June 2001: Liver and onions, mashed potatoes and gravy, whole milk. 2  Jack Clark, 9 January, 2001: Jar of Polish pickles, wedge of cheese, tossed salad with Italian dressing, cheeseburger, French fries with ketchup, grape juice."}
+
